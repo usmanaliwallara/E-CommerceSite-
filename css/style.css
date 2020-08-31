@@ -1,0 +1,46 @@
+h1,h2{
+  text-align: center;
+  padding: 100px 0px 10px 0px;
+  font-size: 50px;
+}
+
+
+#foot{
+  background-color: #051e3e;
+  color: #ffffff;
+}
+
+
+#owner, ul li a{
+  color: white;
+  text-decoration: none;
+
+}
+#owner, ul li a:hover {
+  color: Red;
+  text-decoration: none;
+}
+
+#nav, #menuitem ul li a, #col{
+  background-color: #051e3e;
+  color: #ffffff;
+
+}
+
+#nav, #menuitem ul li a:hover{
+  color: Red;
+}
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 75%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
